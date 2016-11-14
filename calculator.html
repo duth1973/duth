@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+
+<style type="text/css">
+</style>
+<link href="Untitled-2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="wrapper">
+<div id="sidebar"><br>Το  σ(επ)  το παίρνουμε ανάλογα με το υλικό του ιμάντα απο τον αντίστοιχο πίνακα.<br /><br />Η απόδοση του κινητήρα παίρνει τιμές από 0 εως 1. Αν δεν δίνεται απόδοση του κινητήτα τότε στο κουτάκι συμπληρώνουμε με 1.<br /><br />Η απόσταση των κέντρων των τροχαλιών (α), η μικρή και η μεγάλη διάμετρος των τροχαλιών, το πλάτος του ιμαντα (b) και το πάχος του (s) είναι σε mm.<br /><br />Η ισχυς του κινητήρα είναι σε HP  και η πυκνότητα (γ) σε kg/dm^3</div>
+
+<div id="content">
+
+  <h1>Calculator</h1>
+    <h1>
+          <div>
+            <input id="sigma" type="text" placeholder="σ(επ)"><br>
+            <br>
+            <input id="a" type="text" placeholder="α"><br>
+            <input id="N" type="text" placeholder="Ν"><br>
+            <input id="nengine" type="text" placeholder="n(απόδοση κινητήρα)"><br>
+            <input id="Eb" type="text" placeholder="Eb"><br>
+            <input id="den" type="text" placeholder="γ"><br>
+            <input id="b" type="text" placeholder="b"><br>
+            <input id="s" type="text" placeholder="s"><br>
+            <input id="d1" type="text" placeholder="d1"><br>
+            <input id="n1" type="text" placeholder="n1"><br>
+            <input id="d2" type="text" placeholder="d2"><br>
+            <input id="n2" type="text" placeholder="n2"><br>
+            <input type="button" onclick="smax()" value="submit">
+            <input type="button" onclick="clearInputs()" value="Clear all inputs">
+        </div>
+       
+    </h1>
+    
+
+</div>
+ <div id="footer">
+ <h2><div id="smaxResult"></div></h2>
+ </div>
+ 
+
+
+</div>
+
+
+
+<script type="text/javascript" src="../New folder/smax2.js"></script>
+
+</body>
+</html>
